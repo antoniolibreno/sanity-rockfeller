@@ -11,9 +11,34 @@ export const metodologiaType = defineType({
       type: 'image',
     }),
     defineField({
-      name: 'metodologiaImagem2',
-      title: 'Imagem 2',
-      type: 'image',
+      name: 'Titulo',
+      title: 'Titulo 1',
+      type: 'string',
+    }),
+    defineField({
+      name: 'descricao',
+      title: 'Descrição 1',
+      type: 'string',
+    }),
+    defineField({
+      name: 'Titulo',
+      title: 'Titulo 2',
+      type: 'string',
+    }),
+    defineField({
+      name: 'descricao',
+      title: 'Descrição 2',
+      type: 'string',
+    }),
+    defineField({
+      name: 'Titulo',
+      title: 'Titulo 3',
+      type: 'string',
+    }),
+    defineField({
+      name: 'descricao',
+      title: 'Descrição 3',
+      type: 'string',
     }),
   ],
 })
