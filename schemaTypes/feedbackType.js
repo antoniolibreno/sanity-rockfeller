@@ -7,18 +7,23 @@ export const feedbackType = defineType({
   fields: [
     defineField({
       name: 'depoimento',
-      title: 'Depoimento 1',
+      title: 'Depoimento',
       type: 'string',
     }),
     defineField({
-      name: 'depoimento2',
-      title: 'Depoimento 2',
+      name: 'nome',
+      title: 'Nome',
       type: 'string',
     }),
     defineField({
-      name: 'depoimento3',
-      title: 'Depoimento 3',
+      name: 'nome',
+      title: 'Descrição',
       type: 'string',
+    }),
+    defineField({
+      name: 'imagem',
+      title: 'Foto da Pessoa',
+      type: 'image',
     }),
   ],
 })
