@@ -11,13 +11,8 @@ export const cursosType = defineType({
       type: 'string',
     }),
     defineField({
-      name: 'duracao',
-      title: 'Duração (em horas)',
-      type: 'number',
-    }),
-    defineField({
-      name: 'nivel',
-      title: 'Nível',
+      name: 'nome',
+      title: 'Descrição do Curso',
       type: 'string',
     }),
     defineField({
