@@ -13,13 +13,13 @@ export const feedbackType = defineType({
     }),
 
     defineField({
-      name: 'Nome Aluno',
+      name: 'NomeAluno',
       title: 'Aluno',
       type: 'string',
     }),
     
     defineField({
-      name: 'Foto do Aluno',
+      name: 'FotoAluno',
       title: 'Imagem',
       type: 'image',
     }),
