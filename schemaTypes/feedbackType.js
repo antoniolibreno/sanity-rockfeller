@@ -1,24 +1,27 @@
 import { defineField, defineType } from 'sanity'
 
+
 export const feedbackType = defineType({
   name: 'feedback',
   title: 'Feedback',
   type: 'document',
   fields: [
     defineField({
-      name: 'depoimento',
-      title: 'Depoimento 1',
+      name: 'Depoimento',
+      title: 'Depoimento',
       type: 'string',
     }),
+
     defineField({
-      name: 'depoimento2',
-      title: 'Depoimento 2',
+      name: 'Nome Aluno',
+      title: 'Aluno',
       type: 'string',
     }),
+    
     defineField({
-      name: 'depoimento3',
-      title: 'Depoimento 3',
-      type: 'string',
+      name: 'Foto do Aluno',
+      title: 'Imagem',
+      type: 'image',
     }),
   ],
 })
