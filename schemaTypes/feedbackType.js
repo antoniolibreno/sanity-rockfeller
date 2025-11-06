@@ -1,6 +1,8 @@
 import { defineField, defineType } from 'sanity'
 
 export const feedbackType = defineType({
+
+  
   name: 'feedback',
   title: 'Feedback',
   type: 'document',
@@ -21,4 +23,6 @@ export const feedbackType = defineType({
       type: 'string',
     }),
   ],
+
+
 })

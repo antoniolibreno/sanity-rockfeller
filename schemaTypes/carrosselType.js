@@ -1,6 +1,8 @@
 import {defineField, defineType} from 'sanity'
 
 export const carrosselType = defineType({
+
+  
   name: 'carrossel',
   title: 'Carrossel',
   type: 'document',

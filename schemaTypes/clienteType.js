@@ -1,6 +1,8 @@
 import {defineField, defineType} from 'sanity'
 
 export const clientesType = defineType({
+
+  
   name: 'cliente',
   title: 'Clientes',
   type: 'document',

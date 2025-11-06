@@ -5,6 +5,7 @@ import { feedbackType } from './feedbackType'
 import { metodologiaType } from './metodologiaType'
 
 export const schemaTypes = [
+  
   carrosselType,
   clientesType,
   cursosType,

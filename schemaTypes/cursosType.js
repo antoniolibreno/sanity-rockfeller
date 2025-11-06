@@ -1,6 +1,8 @@
 import { defineField, defineType } from 'sanity'
 
 export const cursosType = defineType({
+
+  
   name: 'curso',
   title: 'Cursos',
   type: 'document',
