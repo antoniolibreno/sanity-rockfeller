@@ -7,13 +7,13 @@ export const feedbackType = defineType({
   type: 'document',
   fields: [
     defineField({
-      name: 'Depoimento',
+      name: 'depoimento',
       title: 'Depoimento',
       type: 'string',
     }),
 
     defineField({
-      name: 'NomeAluno',
+      name: 'autor',
       title: 'Aluno',
       type: 'string',
     }),
