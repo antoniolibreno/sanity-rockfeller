@@ -19,13 +19,13 @@
         defineField({
         name: 'pergunta2',
         title: 'Pergunta 2',
-        type: 'String',
+        type: 'string',
         }),
         
         defineField({
         name: 'resposta2',
         title: 'resposta 2',
-        type: 'String',
+        type: 'string',
         }),
 
         defineField({

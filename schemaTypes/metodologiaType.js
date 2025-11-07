@@ -13,12 +13,12 @@ export const metodologiaType = defineType({
     defineField({
       name: 'Textometodologia1',
       title: 'Texto da metodologia',
-      type: 'String',
+      type: 'string',
     }),
      defineField({
       name: 'Textometodologia2',
       title: 'Texto da metodologia',
-      type: 'String',
+      type: 'string',
     }),
   ],
 })
