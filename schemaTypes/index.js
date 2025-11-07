@@ -3,6 +3,7 @@ import { clientesType } from './clienteType'
 import { cursosType } from './cursosType'
 import { feedbackType } from './feedbackType'
 import { metodologiaType } from './metodologiaType'
+import { faq } from './Faq'
 
 export const schemaTypes = [
   carrosselType,
@@ -10,4 +11,5 @@ export const schemaTypes = [
   cursosType,
   feedbackType,
   metodologiaType,
+  faq
 ]
