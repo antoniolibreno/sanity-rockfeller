@@ -23,8 +23,5 @@ export const feedbackType = defineType({
       title: 'Imagem',
       type: 'image',
     }),
-
-
-    
   ],
 })
